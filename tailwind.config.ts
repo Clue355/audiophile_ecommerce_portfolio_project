@@ -13,11 +13,21 @@ const config = {
             },
         },
         extend: {
+            fontFamily: {
+                sans: ["var(--font-manrope)"],
+            },
             colors: {
                 border: "hsl(var(--border))",
                 input: "hsl(var(--input))",
                 ring: "hsl(var(--ring))",
                 background: "hsl(var(--background))",
+                blackbg: "var(--blackbg)",
+                lightorange: "var(--lightorange)",
+                darkorange: "var(--darkorange)",
+                textlight: "var(--textlight)",
+                textdark: "var(--textdark)",
+                graylight: "var(--graylight)",
+                graydark: "var(--graydark)",
                 foreground: "hsl(var(--foreground))",
                 primary: {
                     DEFAULT: "hsl(var(--primary))",

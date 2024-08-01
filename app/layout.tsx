@@ -1,8 +1,19 @@
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
+import localFont from "next/font/local";
 import "./globals.css";
 
-const inter = Inter({ subsets: ["latin"] });
+const manrope = localFont({
+    src: [
+        { path: "../public/fonts/Manrope-ExtraBold.woff2", weight: "bold", style: "normal" },
+        { path: "../public/fonts/Manrope-SemiBold.woff2", weight: "600", style: "normal" },
+        { path: "../public/fonts/Manrope-Medium.woff2", weight: "500", style: "normal" },
+        { path: "../public/fonts/Manrope-ExtraLight.woff2", weight: "200", style: "normal" },
+        { path: "../public/fonts/Manrope-Light.woff2", weight: "300", style: "normal" },
+        { path: "../public/fonts/Manrope-Bold.woff2", weight: "bold", style: "normal" },
+        { path: "../public/fonts/Manrope-Regular.woff2", weight: "normal", style: "normal" },
+    ],
+    display: "swap",
+});
 
 export const metadata: Metadata = {
     title: "Create Next App",
@@ -16,7 +27,7 @@ export default function RootLayout({
 }>) {
     return (
         <html lang="en">
-            <body className={inter.className}>
+            <body className={manrope.className}>
                 <main>{children}</main>
             </body>
         </html>
