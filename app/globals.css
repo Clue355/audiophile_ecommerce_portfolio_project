@@ -12,6 +12,7 @@
         --textdark: #000000;
         --graylight: #fafafa;
         --graydark: #f1f1f1;
+        --graydarker: #434343;
         --foreground: 240 10% 3.9%;
         --card: 0 0% 100%;
         --card-foreground: 240 10% 3.9%;
@@ -88,6 +89,21 @@
         font-weight: bold;
         line-height: 25px;
         letter-spacing: 1px;
+    }
+
+    .center-parent {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+
+    .header-image {
+        position: absolute;
+        top: -100px !important;
+        width: 708px !important;
+        height: 730px !important;
+        max-width: none !important;
     }
 }
 

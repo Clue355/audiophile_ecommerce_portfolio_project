@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import localFont from "next/font/local";
 import "./globals.css";
+import Navbar from "@/components/navbar";
 
 const manrope = localFont({
     src: [
@@ -28,7 +29,10 @@ export default function RootLayout({
     return (
         <html lang="en">
             <body className={manrope.className}>
-                <main>{children}</main>
+                <main>
+                    <Navbar />
+                    {children}
+                </main>
             </body>
         </html>
     );

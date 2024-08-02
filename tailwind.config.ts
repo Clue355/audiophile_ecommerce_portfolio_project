@@ -28,6 +28,7 @@ const config = {
                 textdark: "var(--textdark)",
                 graylight: "var(--graylight)",
                 graydark: "var(--graydark)",
+                graydarker: "var(--graydarker)",
                 foreground: "hsl(var(--foreground))",
                 primary: {
                     DEFAULT: "hsl(var(--primary))",
