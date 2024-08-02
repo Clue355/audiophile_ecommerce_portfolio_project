@@ -1,10 +1,10 @@
 # Ecommerce Portfolio Project
 
 This project is made to show off what I learned about Next.js using designs from Front End Mentor Found Here:
-[frontend mentor link]("https://www.frontendmentor.io/challenges/audiophile-ecommerce-website-C8cuSd_wx")
+[frontend mentor link](https://www.frontendmentor.io/challenges/audiophile-ecommerce-website-C8cuSd_wx)
 
 You can visit a live version of the site hosted on vercel here:
-[deployed project]("https://audiophile-ecommerce-project-clue355.vercel.app/")
+[deployed project](https://audiophile-ecommerce-project-clue355.vercel.app/)
 
 ## Table of Contents
 
@@ -17,6 +17,7 @@ You can visit a live version of the site hosted on vercel here:
 ## Built With
 
 -   [Next.js](https://nextjs.org/) - React framework
+-   [ShadCN/UI](https://ui.shadcn.com/) - Beautifully designed components that you can copy and paste into your apps.
 
 ## Features
 
