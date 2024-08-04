@@ -16,7 +16,9 @@ export default function Categories() {
                     <div className="flex flex-col w-full text-center justify-center items-center mb-[15px]">
                         <h6>HEADPHONES</h6>
                         <Button variant="ghost">
-                            <p className="subtitle  mr-13px  mr-[10px] group-hover:text-darkorange">SHOP</p>
+                            <p className="subtitle text-[#797979] mr-13px  mr-[10px] group-hover:text-darkorange">
+                                SHOP
+                            </p>
                             <div className="relative w-[9px] h-[19px]">
                                 <Image src="/icons/greaterthan.svg" fill alt="greater than sign" />
                             </div>
