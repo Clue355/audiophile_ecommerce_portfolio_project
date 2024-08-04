@@ -27,6 +27,7 @@ const config = {
                 textlight: "var(--textlight)",
                 textdark: "var(--textdark)",
                 graylight: "var(--graylight)",
+                graydarkish: "var(--graydarkish)",
                 graydark: "var(--graydark)",
                 graydarker: "var(--graydarker)",
                 foreground: "hsl(var(--foreground))",
