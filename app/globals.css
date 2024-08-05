@@ -75,6 +75,11 @@
     body {
         @apply bg-background text-foreground;
     }
+
+    a {
+        color: inherit; /* or a specific color */
+        text-decoration: none !important; /* to remove underlines */
+    }
 }
 
 @layer utilities {
@@ -242,11 +247,6 @@ button {
 ul,
 ol {
     list-style: none; /* removes default list styles */
-}
-
-a {
-    color: inherit; /* or a specific color */
-    text-decoration: none; /* to remove underlines */
 }
 
 a:not([class]) {

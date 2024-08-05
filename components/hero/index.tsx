@@ -13,7 +13,7 @@ export default function Hero() {
                         Experience natural, lifelike audio and exceptional build quality made for the passionate music
                         enthusiast.
                     </p>
-                    <Button variant="default">
+                    <Button variant="default" className="hover:bg-lightorange">
                         <p className="subtitle">SEE PRODUCT</p>
                     </Button>
                 </div>
