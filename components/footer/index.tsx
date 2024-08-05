@@ -35,9 +35,9 @@ export default function Footer() {
                 {/* about and socials */}
                 <div className="mt-[36px] flex justify-between text-graydark">
                     <p className="w-[540px] h-[100px]">
-                        Audiophile is an all in one stop to fulfill your audio needs. We're a small team of music lovers
-                        and sound specialists who are devoted to helping you get the most out of personal audio. Come
-                        and visit our demo facility - we&apos;re open 7 days a week.
+                        Audiophile is an all in one stop to fulfill your audio needs. We&apos;re a small team of music
+                        lovers and sound specialists who are devoted to helping you get the most out of personal audio.
+                        Come and visit our demo facility - we&apos;re open 7 days a week.
                     </p>
 
                     <div className="flex justify-end items-end">
