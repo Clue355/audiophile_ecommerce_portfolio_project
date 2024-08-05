@@ -7,9 +7,9 @@ export default function Navbar() {
     return (
         <nav className="center-parent  bg-[#131313] text-textlight h-[96px] ">
             <div className="flex justify-between items-center text-center  max-w-[1110px] w-full h-full border-b border-graydarker">
-                <div className="relative h-[25px] w-[143px] ">
+                <div className="relative h-[25px] w-[143px] hover:bg-darkorange rounded-[8px] ">
                     <Link href="/">
-                        <Image className="hover:bg-darkorange" src="/icons/audiophile.svg" fill alt="audiophile logo" />
+                        <Image src="/icons/audiophile.svg" fill alt="audiophile logo" />
                     </Link>
                 </div>
                 <ul className="flex justify-between max-w-[429px] w-full subtitle">
@@ -26,8 +26,8 @@ export default function Navbar() {
                         <Link href="/earphones">EARPHONES</Link>
                     </li>
                 </ul>
-                <div className="relative w-[23px] h-[20px]">
-                    <Button size="icon" className="w-full h-full bg-transparent hover:text-darkorange">
+                <div className="relative w-[23px] h-[20px] ">
+                    <Button size="icon" className="w-full h-full bg-blackbg  hover:bg-darkorange rounded-[8px]">
                         <Image src="/icons/cart.svg" fill alt="cart button" />
                     </Button>
                 </div>
