@@ -3,10 +3,10 @@ import { Button } from "../ui/button";
 
 export default function Categories() {
     return (
-        <section className="center-parent h-[572px] w-full">
-            <div className="relative flex justify-between items-center w-[1110px] h-[284px] ">
+        <section className="center-parent h-[572px] w-full ">
+            <div className="relative flex justify-between max-[1160px]:justify-center items-center w-[1110px] h-[284px] ">
                 {/* headphones */}
-                <div className="group w-[350px] h-[204px] bg-graydarkish flex justify-center items-end cursor-pointer rounded-[8px]">
+                <div className="group w-[350px] h-[204px] max-[1160px]:h-[165px] max-[1160px]:w-[223px] max-[1160px]:mr-[10px] bg-graydarkish flex justify-center items-end cursor-pointer rounded-[8px]">
                     {/* Image */}
                     <div className="absolute -top-8 w-[190px] h-[190px] drop-shadow">
                         <Image src="/images/headphones.png" fill alt="image of headphones" />
@@ -27,7 +27,7 @@ export default function Categories() {
                 </div>
 
                 {/* speakers */}
-                <div className="group w-[350px] h-[204px] bg-graydarkish flex justify-center items-end cursor-pointer rounded-[8px]">
+                <div className="group w-[350px] h-[204px] max-[1160px]:h-[165px] max-[1160px]:w-[223px] max-[1160px]:mr-[10px] bg-graydarkish flex justify-center items-end cursor-pointer rounded-[8px]">
                     {/* Image */}
                     <div className="absolute -top-6 w-[190px] h-[190px] ">
                         <Image src="/images/speakers.png" fill alt="image of speakers" />
@@ -48,9 +48,9 @@ export default function Categories() {
                 </div>
 
                 {/* earphones */}
-                <div className="group w-[350px] h-[204px] bg-graydarkish flex justify-center items-end cursor-pointer rounded-[8px]">
+                <div className="group w-[350px] h-[204px] max-[1160px]:h-[165px] max-[1160px]:w-[223px] bg-graydarkish flex justify-center items-end cursor-pointer rounded-[8px]">
                     {/* Image */}
-                    <div className="absolute -top-4 w-[190px] h-[170px] mb-[50px]">
+                    <div className="absolute -top-4 w-[190px] h-[170px] max-[1160px]:h-[104px] max-[1160px]:w-[103px] mb-[50px]">
                         <Image src="/images/earphones.png" fill alt="image of earphones" />
                     </div>
 

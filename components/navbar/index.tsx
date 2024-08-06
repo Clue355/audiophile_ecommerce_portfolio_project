@@ -6,7 +6,7 @@ import Link from "next/link";
 export default function Navbar() {
     return (
         <nav className="center-parent  bg-[#131313] text-textlight h-[96px] ">
-            <div className="flex justify-between items-center text-center  max-w-[1110px] w-full h-full border-b border-graydarker">
+            <div className="flex justify-between items-center text-center  max-w-[1110px] w-full h-full border-b border-graydarker max-[1160px]:mx-[40px]">
                 <div className="relative h-[25px] w-[143px] hover:bg-darkorange rounded-[8px] ">
                     <Link href="/">
                         <Image src="/icons/audiophile.svg" fill alt="audiophile logo" />

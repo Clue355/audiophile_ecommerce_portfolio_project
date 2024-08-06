@@ -2,9 +2,9 @@ import Image from "next/image";
 
 export default function About() {
     return (
-        <section className="center-parent mt-[160px] mb-[200px]">
-            <div className="flex justify-between items-center w-[1110px] h-[588px]">
-                <div className="h-[295px] w-[445px]">
+        <section className="center-parent mt-[160px] mb-[200px] max-[1160px]:mt-[96px]">
+            <div className="flex justify-between max-[1160px]:flex-col-reverse items-center w-[1110px] h-[588px]">
+                <div className="h-[295px] w-[445px] max-[1160px]:w-[573px] max-[1160px]:text-center">
                     <h2>
                         BRINGING YOU THE <span className="text-darkorange">BEST</span> AUDIO GEAR
                     </h2>
@@ -16,7 +16,7 @@ export default function About() {
                         audio equipment.
                     </p>
                 </div>
-                <div className="relative w-[540px] h-full rounded-[8px]">
+                <div className="relative w-[540px] max-[1160px]:w-[689px] h-full max-[1160px]:h-[300px] max-[1160px]:mb-[63px] rounded-[8px]">
                     <Image src="/images/person.png" fill alt="picture of a person wearing headphones" />
                 </div>
             </div>
