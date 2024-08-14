@@ -7,12 +7,17 @@ export default function Navbar() {
     return (
         <nav className="center-parent  bg-[#131313] text-textlight h-[96px] ">
             <div className="flex justify-between items-center text-center  max-w-[1110px] w-full h-full border-b border-graydarker max-[1160px]:mx-[40px]">
-                <div className="relative h-[25px] w-[143px] hover:bg-darkorange rounded-[8px] ">
-                    <Link href="/">
-                        <Image src="/icons/audiophile.svg" fill alt="audiophile logo" />
-                    </Link>
+                <div className="flex justify-center items-center">
+                    <div className="relative w-[16px] h-[15px] hidden max-[768px]:block mr-[42px]">
+                        <Image src="/icons/menu.svg" fill alt="nav menu icon" />
+                    </div>
+                    <div className="relative h-[25px] w-[143px] hover:bg-darkorange rounded-[8px] ">
+                        <Link href="/">
+                            <Image src="/icons/audiophile.svg" fill alt="audiophile logo" />
+                        </Link>
+                    </div>
                 </div>
-                <ul className="flex justify-between max-w-[429px] w-full subtitle">
+                <ul className="flex justify-between max-w-[429px] w-full subtitle max-[768px]:hidden">
                     <li className="hover:text-darkorange ">
                         <Link href="/">HOME</Link>
                     </li>
